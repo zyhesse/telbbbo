@@ -1,0 +1,17 @@
+# 加密货币交易信号Telegram机器人依赖
+# Python 3.10+ 要求
+
+# 核心依赖
+ccxt>=4.2.25                    # 加密货币交易所API库
+python-telegram-bot>=20.7       # Telegram Bot API (需要Python 3.10+)
+pandas>=2.1.0                   # 数据处理和分析
+numpy>=1.26.0                   # 数值计算库
+
+# 配置和网络
+python-dotenv>=1.0.0            # 环境变量管理
+aiohttp>=3.8.0                  # 异步HTTP客户端
+requests>=2.31.0                # HTTP库
+websockets>=11.0,<12.0          # WebSocket支持（如需要）
+
+# 数据库
+SQLAlchemy>=2.0.0               # 数据库ORM（信号跟踪器使用） 
